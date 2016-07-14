@@ -1,48 +1,89 @@
 body {
-    font-family: Helvetica san-serif;
-    color: #FFF;
+  font-family: Helvetica sans-serif;
+  color: #FFF;
 }
 
 .block {
-    background: #000;
-    opacity: .7;
-    padding: 10px;
-    width: 50%;
-    margin: 0 auto;
-    border-radius: 10px;
+  background: #000;
+  opacity: .7;
+  padding: 10px;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 10px;
 }
-
+.block h1{
+  text-shadow: -5px 6px 6px yellow;
+}
 .nav-pills {
-    font-size: 1.7em;
-    background: black;
-    margin-bottom: 10%;
+  font-size: 1.7em;
+  background: black;
+  margin-bottom: 10%;
+  
 }
 
-h1 {
-    padding: 0;
-    margin-top: 0;
-    font-size: 5.0em;
-}
+h1{ 
+  padding: 0;
+  margin-top: 0;
+  font-size: 5.0em;
+  font-style:oblique;
+      
 
+}
 
 .btn-default {
-    background: #000;
-    color: #aaa;
-    font-size: 15px;
+  background: #000;
+  color: #aaa;
+  font-size: 15px;
+
+
 }
 
-
 .pageOne {
-    background: url(../images/front.jpeg);
+  background: url(https://images.unsplash.com/photo-1457305237443-44c3d5a30b89?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=343486b88909fd224389c0ea51355019);
 
 }
 
 .pageTwo {
-    background: url(../images/middle.jpg);
-    
+  background: url(https://images.unsplash.com/38/awhCbhLqRceCdjcPQUnn_IMG_0249.jpg?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=ebe2a039b5ac7f82559a7d0597872111);
+  padding-top:5%;
 }
 
-.pagesFix {
-    background-size: cover;
-    height: 800px;
+.pageFix {
+  background-size: cover;
+  height: 800px;
+}
+/*To make boxes with content*/
+/*.workBox{
+  height:250px;
+    width:250px;
+    border-radius:5px;
+    display: inline-block;
+    background-color:#ccc;
+    overflow: scroll;
+  }
+*/p {
+  font-size: 2em;
+  text-align: left;
+  padding-left:5%;
+}
+.photo{
+  height:200px;
+}
+footer{
+  height:100px;
+  background:#000;
+}
+.footbnt {
+  float:right;
+  padding-top:10px;
+  
+
+}
+.cpright{
+  color:#FFF;
+
+
+  
+
+
 }
